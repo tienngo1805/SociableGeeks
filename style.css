@@ -12,3 +12,20 @@ body
     display: flex;
     justify-content: center;
 }
+
+#links
+{
+    justify-content: center;
+    text-align: center;
+    display: block;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+li
+{
+    display: inline;
+}
