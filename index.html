@@ -13,10 +13,12 @@
 </head>
 
 <body>
+    <!--This is for the Logo or the title-->
     <div id="logo">
         <img src="/img/Wild Travel.jpeg" alt="SGLogo"><br><br>
     </div>
 
+    <!--This is for the menu bar or navigation links-->
     <div id= "navMenu">
         <div id="navLinks">
             <a href="index.html" alt="Mens Link">Mens</a> 
@@ -24,7 +26,24 @@
             <a href="kids.html" alt="Kids Link">Kids</a>
             <a href="accessories/html" alt="accessories Link">Accessories</a>
         </div>
+    </div>    
+    <!--This is for the slideshow-->
+    <div id="slideshow">
+
+        <!--This will be the left button-->
+        <button class="leftSlideshowBtn" onclick="plusDivs(-1)">&#10094;</button>
+
+        <!--These are the images that will be in the slideshow-->
+        <img class="slide" src="/img/men slideshow/man-1.png" alt="Man 1">
+        <img class="slide" src="/img/men slideshow/man-2.png" alt="Man 2">
+        <img class="slide" src="/img/men slideshow/man-3.png" alt="Man 3">
+        <img class="slide" src="/img/men slideshow/man-4.png" alt="Man 4">
+        
+        <!--This will be the right button-->
+        <button class="rightSlideshowBtn" onclick="plusDivs(+1)">&#10095;</button>
     </div>
 
+    <!--This is the javascript that will run the slideshow-->
+    <script src="slideshow.js"></script>
 </body>
 </html>

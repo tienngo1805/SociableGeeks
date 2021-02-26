@@ -44,3 +44,23 @@ a
         color: #FFFFFF;
         text-decoration: none;
     }
+
+#slide
+    {
+        display: none;
+    }
+
+#slideshow
+    {
+        justify-content: center;
+        display: flex;
+    }
+
+button
+    {
+        height: 5%;
+        width: auto;
+        margin-top: 10%;
+        background-color: #000000;
+        color: #FFFFFF
+    }
