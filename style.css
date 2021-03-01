@@ -13,20 +13,14 @@ body
         justify-content: center;
     }
 
-#links
-    {
-        justify-content: center;
-        text-align: center;
-        width:33%;
-        margin-left: 33%;
-    }
-
 #navMenu
     {
         background-color: #1e1e1e;
         border-top: 1px solid #383838;
         margin-bottom: 5px;
         z-index:105;
+        padding-left:0;
+        margin-left:0; 
     }
 
 #navLinks
@@ -35,7 +29,7 @@ body
         font-size: 28px;
         text-transform: uppercase;  
         display: flex;
-        justify-content: center; 
+        justify-content: center;
     }
 
 a
@@ -64,3 +58,24 @@ button
         background-color: #000000;
         color: #FFFFFF
     }
+
+#grid
+    {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 2.5%;
+        justify-content: center;
+        
+    }
+
+#gridItem
+    {
+        align-content: left;
+        border: 0px solid rgba(0, 0, 0, 0);
+        padding: 0%;
+        min-width:25%;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
