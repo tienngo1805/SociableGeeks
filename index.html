@@ -7,12 +7,13 @@
   <title>Sociable Geeks</title>
   <meta name="description" content="Sociable Geeks Ecommerce site">
   <meta name="author" content="SitePoint">
-
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/facvicon/favicon.ico">
 
 </head>
 
 <body>
+
     <!--This is for the menu bar or navigation links-->
     <div id= "navMenu">
         <div id="navLinks">            
@@ -22,7 +23,8 @@
             <a href="kids.html" alt="Kids Link">Kids</a>
             <a href="accessories/html" alt="accessories Link">Accessories</a>
         </div>
-    </div>    
+    </div>
+
     <!--This is for the slideshow-->
     <div id="slideshow">
 
@@ -39,34 +41,87 @@
         <button class="rightSlideshowBtn" onclick="plusDivs(+1)">&#10095;</button>
     </div>
 
+    <h2>
+        Shirts
+    </h2>
+
+    <!-- This is for the shirts as a 1x3 grid-->
     <div id="grid">
         <div id="gridItem">
             <img src="/img/Clothes/shirts/red shirt.png" alt="red shirt"> <br>
             Red shirt <br>
-            £15 <br>
+            £12 <br>
             Size: 
-                <select>
-                    <option value="small">Small</option>
-                    <option value="medium">Medium</option>
-                    <option value="large">Large</option>
-                    <option value="x-large">X-Large</option>
+                <select id = "red-shirt">
+                    <option value="small-red">Small</option>
+                    <option value="medium-red">Medium</option>
+                    <option value="large-red">Large</option>
+                    <option value="x-large-red">X-Large</option>
                 </select>
+                <br>
+            Quantity: 
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3+">3+</option>
+                </select>
+                <br>
+            <button id="add">
+                Add To Basket
+            </button>    
         </div>
         <div id="gridItem">
             <img src="/img/Clothes/shirts/green shirt.png" alt="green shirt"> <br>
             Green shirt <br>
-            £15 <br>
+            £12 <br>
             Size: 
-                <select>
-                    <option value="small">Small</option>
-                    <option value="medium">Medium</option>
-                    <option value="large">Large</option>
-                    <option value="x-large">X-Large</option>
+                <select id = "green-shirt">
+                    <option value="small-green">Small</option>
+                    <option value="medium-green">Medium</option>
+                    <option value="large-green">Large</option>
+                    <option value="x-large-green">X-Large</option>
                 </select>
+                    <br>
+            Quantity: 
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3+">3+</option>
+                </select>  
         </div>
         <div id="gridItem">
             <img src="/img/Clothes/shirts/orange shirt.png" alt="orange shirt"> <br>
             Orange shirt <br>
+            £12 <br>
+            Size: 
+                <select id = "orange-shirt">
+                    <option value="small-orange">Small</option>
+                    <option value="medium-orange">Medium</option>
+                    <option value="large-orange">Large</option>
+                    <option value="x-large-orange">X-Large</option>
+                </select>
+                    <br>
+            Quantity: 
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3+">3+</option>
+                </select>  
+        </div>
+    </div>
+
+    <h2>
+        Sweatpants
+    </h2>
+
+    <!-- This is for the trousers as a 1x3 grid-->
+    <div id="grid">
+        <div id="gridItem">
+            <img src="/img/Clothes/trousers/Sweats-1.png" alt="sweats 1"> <br>
+            Grey Sweats <br>
             £15 <br>
             Size: 
                 <select>
@@ -75,8 +130,55 @@
                     <option value="large">Large</option>
                     <option value="x-large">X-Large</option>
                 </select>
+                <br>
+            Quantity: 
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3+">3+</option>
+                </select>    
         </div>
-        
+        <div id="gridItem">
+            <img src="/img/Clothes/trousers/Sweats-3.png" alt="white sweats"> <br>
+            White Sweats <br>
+            £15 <br>
+            Size: 
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="x-large">X-Large</option>
+                </select>
+                    <br>
+            Quantity: 
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3+">3+</option>
+                </select>  
+        </div>
+        <div id="gridItem">
+            <img src="/img/Clothes/trousers/Sweats-2.png" alt="orange shirt"> <br>
+            Blue Sweats <br>
+            £15 <br>
+            Size: 
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                    <option value="x-large">X-Large</option>
+                </select>
+                    <br>
+            Quantity: 
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3+">3+</option>
+                </select>  
+        </div>
     </div>
 
     <!--This is the javascript that will run the slideshow-->
