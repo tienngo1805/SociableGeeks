@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sociable Geeks</title>
+  <meta name="description" content="Sociable Geeks Ecommerce site">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/facvicon/favicon.ico">
+
+</head>
+
+<body>
+
+    <!--This is for the menu bar or navigation links-->
+    <div id= "navMenu">
+        <div id="navLinks">            
+            <a href="index.html" alt="Mens Link">Mens</a> 
+            <a href="womwens.html" alt="Womens Link">Womens</a>
+            <a href="index.html"><img src="/img/Logo-small.png" alt="SGLogo"></a>
+            <a href="kids.html" alt="Kids Link">Kids</a>
+            <a href="accessories/html" alt="accessories Link">Accessories</a>
+        </div>
+    </div>
+
+    <!--This is for the slideshow-->
+    <div id="slideshow">
+
+        <!--This will be the left button-->
+        <button class="leftSlideshowBtn" onclick="plusDivs(-1)">&#10094;</button>
+
+        <!--These are the images that will be in the slideshow-->
+        <img class="slide" src="/img/men slideshow/man-1.png" alt="Man 1">
+        <img class="slide" src="/img/men slideshow/man-2.png" alt="Man 2">
+        <img class="slide" src="/img/men slideshow/man-3.png" alt="Man 3">
+        <img class="slide" src="/img/men slideshow/man-4.png" alt="Man 4">
+        
+        <!--This will be the right button-->
+        <button class="rightSlideshowBtn" onclick="plusDivs(+1)">&#10095;</button>
+    </div>
+
+    <h2>
+        Red Shirt
+    </h2>
+
+    <!-- This is for the shirts as a 1x3 grid-->
+    <div id="grid">
+        <div id="gridItem">
+            <img src="/img/Clothes/shirts/red shirt.png" alt="red shirt"> <br>
+            <img src="/img/Clothes/shirts/red shirt.png" alt="red shirt"> <br>
+            <img src="/img/Clothes/shirts/red shirt.png" alt="red shirt">
+        </div>
+        <div id="gridItem">
+            <img src="/img/Clothes/shirts/red shirt.png" alt="red shirt"> <br>            
+        </div>
+        <div id="gridItem">
+            <p>
+                This is a red shirt, it is a short sleeve and is thin in material.<br>
+                It is fit to size as it is not tight or loose.
+            </p>
+            <h2>£12</h2>
+            Size: 
+                <select id = "red-shirt">
+                    <option value="small-red">Small</option>
+                    <option value="medium-red">Medium</option>
+                    <option value="large-red">Large</option>
+                    <option value="x-large-red">X-Large</option>
+                </select>
+                <br>
+            Quantity: 
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3+">3+</option>
+                </select>
+                <br>
+            <button id="add">
+                View Item
+            </button>
+            <button id="add">
+                Add To Basket
+            </button>    
+        </div>
+    </div>
+
+    <!--This is the javascript that will run the slideshow-->
+    <script src="slideshow.js"></script>
+</body>
+</html>
